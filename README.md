@@ -5,11 +5,11 @@ ELK stack project
 
 The files in this repository were used to configure the network depicted below.
 
-![TODO: Update the path with the name of your diagram](Images/diagram_filename.png)
+(Diagrams/ELK-Project.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the filebeat-install.yml file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  - (Ansible/)
 
 This document contains the following details:
 - Description of the Topology
@@ -94,4 +94,3 @@ SSH into the control node and follow the steps below:
 - Copy the playbook file to Jump-Box-Provisioner.
 - Update the playbook file to include the Web1 and Web2 IP addresses
 - Run the playbook, and navigate to Kibana to check that the installation worked as expected.
-
